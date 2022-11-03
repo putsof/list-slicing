@@ -10,7 +10,7 @@ def head(input_list):
       'Jan'
     """
 
-    return []
+    return input_list[0]
 
 
 def tail(input_list):
@@ -23,7 +23,7 @@ def tail(input_list):
 
     """
 
-    return []
+    return input_list[1:]
 
 
 def last(input_list):
@@ -35,8 +35,9 @@ def last(input_list):
     'Mar'
 
     """
+    out_str = ""
 
-    return []
+    return out_str.join(input_list[-1])
 
 
 def top(input_list):
